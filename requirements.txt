@@ -1,0 +1,8 @@
+django==3.2.19
+graphene==2.1.8
+graphene-django==2.15.0
+Pillow==9.5.0
+djangorestframework==3.12.4
+django-graphql-auth==0.3.16
+graphene_graphiql_explorer==0.0.1
+django-filter==2.4.0
