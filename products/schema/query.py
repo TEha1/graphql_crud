@@ -14,11 +14,13 @@ from utilities.graphene.filters import (
 class CategoryType(DjangoObjectType):
     class Meta:
         model = Category
+        exclude = ("products",)
 
 
 class ProductType(DjangoObjectType):
     class Meta:
         model = Product
+        exclude = ("orders",)
 
 
 class OrderType(DjangoObjectType):
